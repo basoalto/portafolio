@@ -1,0 +1,11 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+<h1>{{post.title}}</h1>
+<h2>{{post.date|date:'F jS Y'}}</h2>
+
+<img src="{{post.image.url}}" alt="{{post.title}}">
+
+<p>{{post.description|safe}}</p>
+
+{% endblock %}
