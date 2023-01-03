@@ -1,20 +1,19 @@
 {% extends 'layout.html' %}
 
-
 {% block content %}
 
 {% load static %}
 
 <header class="row ">
-    <div class="col-md-6">
-        <img src="{% static 'portafolio/perfill.jpg' %}" alt="">
+    <div class="col-md-6" >
+        <img src="{% static 'portafolio/perfill.jpg' %}" width="700" height="400" alt="">
     </div>
 
-    <div class="col-md-10 my-auto p-6">
-        <h1><strong>I am Lucas<strong> Backend development</h1>
-        <h3>javascript, django, python development</h3>
+    <div class="col-md-12 my-auto p-6" width="100" height="400">
+        <h1><strong>Soy Lucas, <strong>Desarrollo en Backend</h1>
+        <h3>Me defiendo en javascript, Pythond, Django, Node</h3>
         <p>Me describo como una persona que le gustan los nuevos retos.</p>
-            <a class="btn btn-primary btn-lg rounded-0 my-3" href="{% static 'portafolio/CURRICULUMVITAE.pdf' %}">Download my CV</a>
+            <a class="btn btn-primary btn-lg rounded-0 my-3" href="{% static 'portafolio/Curriculum_Lucas.pdf' %}">Download my CV</a>
     </div>
 </header>
 
